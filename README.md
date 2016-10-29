@@ -29,7 +29,7 @@ $ composer require maximegosselin/translated-literal
 
 Instantiate a `Literal` object by defining the default locale and translation.
 
-A `Literal` instance is **immutable**. It can be modified using `withLocale` and `withTranslation` functions.
+A `Literal` instance is **immutable**. A copy can be created using `withLocale` and `withTranslation` functions.
 
 ```php
 $literal = new Literal('fr-ca', 'Bonjour le monde');
